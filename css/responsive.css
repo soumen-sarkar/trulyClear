@@ -1,0 +1,198 @@
+@media (max-width:1300px){
+	 .navbar-expand-md .navbar-nav .nav-link {
+	    font-size: 12px;
+	}
+	li.nav-item {
+	    margin: 0rem 0.5rem;
+	}
+	.bannerInfo h2 {
+	    font-size: 2.5rem;
+	}
+	.bannerInfo p {
+	    font-size: 1.3rem;
+	}
+	.bannerText {
+	    top: 135px;
+	}
+	.trulyItemContent {
+	    min-height: 215px;
+	}
+	.imgContent {
+	    width: 100%;
+	    height: 220px;
+	}
+	.reviewContent {
+	    width: 470px;
+	    padding: 25px;
+	    margin-top: 10px;
+	}
+}
+
+@media (max-width:1023px) {
+	div#navbarNavDropdown {
+	    justify-content: center;
+	}
+	.bannerInfo {
+	    text-align: center;
+	}
+	.bannerInfo h2 {
+	    font-size: 1.5rem;
+	    margin: 0;
+	}
+	.bannerInfo p {
+	    font-size: 1rem;
+	    margin: 0;
+	}
+	.bannerInfo a {
+	    font-size: 1.2rem;
+	    padding: 7px 31px;
+	    margin-top: 10px;
+	}
+	.trulyItem {
+	    margin-bottom: 30px;
+	}
+	.trulyItemContent img {
+	    position: absolute;
+	    left: 35px;
+	    bottom: 50px;
+	}
+	.trulyItemContent {
+	    min-height: 200px;
+	}
+	.imgContent {
+	    width: 100%;
+	    height: 260px;
+	}
+	.productContent,.blogContent {
+	    margin-bottom: 30px;
+	}
+	.reviewContent {
+	    width: 100%;
+	    padding: 25px;
+	    margin-top: 10px;
+	    margin-left: 0;
+	}
+	.reviewWrap .col-lg-7 img {
+	    width: 100%;
+	}
+	.reviewContent::before {
+	    background: #ffece5;
+	}
+	.allReview {
+	    text-align: center;
+	}
+	.siteInfo.d-flex {
+	    display: block !important;	
+	}
+	.siteInfoImg {
+	    margin-bottom: 15px;
+	}
+}
+@media (max-width:980px) {
+	footer {
+	    text-align: center;
+	}
+	.siteInfoImg {
+	    margin-bottom: 15px;
+	    margin-right: 0;
+	    margin-top: 15px;
+	}
+}
+@media (max-width:767px) {
+   .col-lg-5.justify-content-md-center {
+	    order: 3;
+	}
+	button.navbar-toggler {
+	    position: absolute;
+	    right: -19px;
+	    top: -38px;
+	    color: #2289c9;
+	    z-index: 99;
+	    opacity: 1 !important;
+	}
+	.productAction a span {
+		    margin-left: 2px;
+	}
+	ul.navbar-nav {
+	    position: absolute;
+	    right: 0px;
+	    background: #fff;
+	    width: 160px;
+	    border-radius: 5px;
+	    box-shadow: 0px 0px 6px #42404057;
+	}
+	.navbar-expand-md .navbar-nav .nav-link {
+	    font-size: 12px;
+	    margin: 0 !important;
+	    padding: 8px 5px;
+	    font-size: 13px;
+	}
+	.dropdown-menu {
+	    min-width: 7rem;
+	    padding: 0;
+	    margin: 0;
+	}
+	.dropdown-item {
+	    display: block;
+	    width: 100%;
+	    padding: .25rem 0.5rem;
+	    clear: both;
+	    font-weight: 400;
+	    color: #212529;
+	    text-align: inherit;
+	    white-space: nowrap;
+	    background-color: transparent;
+	    border: 0;
+	    font-size: 11px;
+	}
+
+}
+
+@media (max-width:570px) {
+	.welcomeKit {
+	    padding: 20px 15px;
+	}
+	.newletterWrap .form-control {
+	    margin-bottom: 15px;
+	}
+	.newletterWrap p {
+	    margin-bottom: 10px;
+	    font-size: 13px;
+	}
+	.newletterWrap h2,section.blogWrap h2,.heading h3 {
+	    font-size: 1.5rem;
+	}
+	.d-flex.justify-content-between.align-items-center.mt-4 {
+	    display: block !important;
+	}
+	.d-flex.justify-content-between.align-items-center.mt-4 img {
+	    margin-bottom: 15px;
+	}
+	.footerBottom p {
+	    margin-top: 20px;
+	}
+	.productAction a {
+	    font-size: 20px;
+	    margin-left: 5px;
+	}
+	.carousel-inner img {
+	    min-height: 300px;
+	    object-fit: cover;
+	}
+	.bannerText {
+	    top: 105px;
+	}
+	a.logoHolder img {
+	    width: 140px;
+	    float: left;
+	}
+	.bannerInfo p {
+	    font-weight: 400;
+	}
+}	
+
+@media (max-width:414px) {
+	.trulyItemContent {
+		    min-height: 180px;
+		}
+}
