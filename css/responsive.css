@@ -149,7 +149,20 @@
 	.productDescription {
 	    padding-left: 0;
 	}
-
+	.storyWrap .col-md-6.my-5 {
+	    margin: 0px 0px !important;
+	}
+	.devResult h3 {
+	    width: 260px;
+	    font-size: 1.2rem;
+	}
+	.devResult p {
+	    padding: 0px 0px;
+	    margin: 30px 0px;
+	}
+	.elementor-video {
+	    width: 100%;
+	}
 }
 
 @media (max-width:570px) {
@@ -221,6 +234,13 @@
 	    width: 100% !important;
 	    height: auto !important;
 	    min-height: unset;
+	}
+	.innerBnner .carousel-inner img {
+	    min-height: 240px;
+	    object-fit: cover;
+	}
+	.storyWrap .col-md-6.my-5 img {
+	    padding-left: 0 !important;
 	}
 }	
 

@@ -990,3 +990,109 @@ span.rIcon {
     outline: none !important;
     box-shadow: none !important;
 }
+.innerBnner {
+    border-bottom: 1px solid #ccc;
+    box-shadow: 0px 0px 5px #86868661;
+}
+.mainBlogWrap{
+    background: #f7f8f8 url('../images/blogRight.png');
+    padding: 50px 0px;
+    background-size: cover;
+}
+.firstBlogPart img {
+    padding: 10px;
+    background: #fff;
+}
+.firstBlogPart .blogContent {
+    padding: 30px;
+}
+.firstBlogPart .blogContent i {
+    display: block;
+    color: #fbc1ad;
+    font-weight: 100;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+.firstBlogPart .blogContent h3 {
+    font-size: 1.5rem;
+    color: #2289c9;
+    margin-bottom: 20px;
+}
+.firstBlogPart .blogContent p {
+    margin: 0;
+    color: #666666;
+}
+.firstBlogPart .blogContent p a {
+    color: #f46e49;
+    text-decoration: underline !important;
+}
+.allBlog .bInfo h3 a {
+    font-size: 16px;
+}
+.allBlog .blogContent p {
+    font-size: 11px;
+}
+.allBlog .bInfo > a {
+    background: transparent;
+    color: #f46e49;
+    border: 1px solid #ccc;
+}
+.devResult h3 {
+    color: #2289c9;
+    width: 320px;
+    margin: 0 auto;
+    border-bottom: 2px solid #2289c9;
+    padding-bottom: 10px;
+    margin-bottom: 65px;
+    font-size: 1.4rem;
+    margin-top: 35px;
+}
+.devResult p {
+    font-size: 15px;
+    padding: 0px 35px;
+    margin: 50px 0px;
+}
+.devResult p a {
+    text-decoration: underline !important;
+}
+
+.author {
+    margin-bottom: 10px;
+    color: #666666;
+}
+.author strong {
+    color: #2289c9;
+    font-weight: 600;
+}
+.sInfo i {
+    font-size: 15px;
+    color: #f46e49;
+    display: block;
+    margin: 30px 0px;
+    position: relative;
+}
+.sInfo p {
+    font-size: 14px;
+    margin-bottom: 24px;
+}
+.sInfo p span {
+    color: #f46e49;
+}
+.sInfo i::before {
+    position: absolute;
+    content: '"';
+    top: -24px;
+    font-size: 52px;
+    font-family: initial;
+    left: 0px;
+    transform: rotate(-16deg);
+}
+.sInfo i::after {
+    position: absolute;
+    content: '"';
+    bottom: -33px;
+    font-size: 52px;
+    font-family: initial;
+    right: -8px;
+    transform: rotate(6deg);
+}
