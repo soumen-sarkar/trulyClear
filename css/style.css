@@ -146,6 +146,7 @@ header.headerWrap {
     top: -2px;
     transition: all 0.3s;
 }
+.productAction a.active span,
 .productAction a:hover span {
     background: #f46e49;
     transition: all 0.3s;
@@ -176,14 +177,49 @@ header.headerWrap {
     text-transform: uppercase;
     margin-top: 15px;
 }
+
+.bannerInfo a, 
+.headerTop a , 
+.welcomeInfo a, 
+.productContent a,
+.allReview a,
+.bInfo > a,
+.showAllRevewBtn a,
+.cartCount  a,
+.rA  a{
+  overflow: hidden;
+  position: relative;
+  
+}
+.welcomeInfo img {
+    position: relative;
+    top: -18px;
+}
 .bannerInfo a:hover, 
 .headerTop a:hover , 
 .welcomeInfo a:hover, 
 .productContent a:hover,
 .allReview a:hover,
 .bInfo > a:hover {
-    background: #156fa7;
+    color: #fff;
 }
+.ripple-effect {
+  position: absolute;
+  border-radius: 50%;
+  animation: ripple-animation 2s;
+}
+@keyframes ripple-animation {
+  from {
+    transform: scale(1);
+    opacity: 0.4;
+  }
+  to {
+    transform: scale(100);
+    opacity: 0;
+  }
+}
+
+
 
 .trulyItem {
     background: #ededed;
@@ -997,7 +1033,9 @@ span.rIcon {
 .mainBlogWrap{
     background: #f7f8f8 url('../images/blogRight.png');
     padding: 50px 0px;
-    background-size: cover;
+    background-size: 100%;
+    background-position: top;
+    background-repeat: no-repeat;
 }
 .firstBlogPart img {
     padding: 10px;
@@ -1096,3 +1134,8 @@ span.rIcon {
     right: -8px;
     transform: rotate(6deg);
 }
+.allBlog .bInfo > a:hover{
+    background: #2289c9;
+    color: #fff;
+}
+
